@@ -110,6 +110,8 @@ else()
   add_subdirectory(external/spdlog)
 endif()
 
+add_subdirectory(external/Qt-Color-Widgets)
+
 if (APPLE)
   add_subdirectory(external/QHotkey)
 endif()
